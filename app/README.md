@@ -67,7 +67,7 @@ lived in the DB). After rebuilding, redeploy with step 2 below to push the new D
 
 ## Deploy to Hugging Face Space (full corpus, all 6 books)
 
-Reuses the existing Space `hedyehrezaei65/inkference`. Everything large lives in a **public
+Reuses the existing Space [here](https://huggingface.co/spaces/sajitkun125/inkference). Everything large lives in a **public
 HF dataset** (HF's Docker build ships Git-LFS as pointers, so large/binary files can't go
 in the Space repo). The image pulls them at build with `snapshot_download` (which resolves
 LFS):
